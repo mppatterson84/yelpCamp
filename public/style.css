@@ -1,0 +1,14 @@
+body{
+    color: black;
+}
+.flxwrp{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    width: 30%;
+    margin: 25px auto;
+}
+.centerText{
+    text-align: center;
+}

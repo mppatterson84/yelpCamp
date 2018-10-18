@@ -1,0 +1,13 @@
+<% include ./partials/header %>
+
+<h1>Login</h1>
+
+<form action="/login" method="POST">
+    <input type="text" name="username" placeholder="username">
+    <!-- password input has value="password" so I don't have 
+    to keep typing the password to log in while testing -->
+    <input type="password" name="password" placeholder="password" value="password">
+    <input type="submit" value="Login">
+</form>
+
+<% include ./partials/footer %>
